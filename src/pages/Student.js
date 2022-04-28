@@ -1,9 +1,10 @@
 import classes from "./Student.module.css";
-import { Row, Col } from "antd";
 import { IoMdArrowDropdown } from "react-icons/io";
 import { RiEqualizerLine } from "react-icons/ri";
+import StudentTable from "../components/tables/StudentTable";
 
 function Test() {
+
   return (
     <>
       <header className={classes.header}>
@@ -22,6 +23,9 @@ function Test() {
             แก้ไขสัดส่วนคะแนน
             <RiEqualizerLine className={classes.bodyIcon} />
           </button>
+        </div>
+        <div className={classes.tableContainer}>
+        <StudentTable />
         </div>
       </div>
     </>

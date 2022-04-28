@@ -86,7 +86,6 @@ function Sidebar() {
           <br />
           <br />
           <br />
-          <br />
           <hr />
           <div className={classes.alignItems}>
             <div className={classes.alignTextItem}>
@@ -123,7 +122,6 @@ function Sidebar() {
           </div>
         </div>
       </div>
-      
     </>
   );
 }
