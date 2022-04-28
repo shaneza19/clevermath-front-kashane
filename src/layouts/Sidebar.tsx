@@ -1,4 +1,4 @@
-import { useState, useEffect, useContext } from "react";
+import { useContext } from "react";
 import { Link } from "react-router-dom";
 import classes from "./Sidebar.module.css";
 import {
@@ -32,14 +32,14 @@ function Sidebar() {
     <>
       <div className={isExpanded ? classes.SideBar : classes.SideBarCollapsed}>
         <br />
-        <RiMenuLine className={classes.SideBarIcon} onClick={handleToggler} />
+        <RiMenuLine className={classes.SideBarIconToggle} onClick={handleToggler} />
         <div className={classes.SideBarContent}>
           <h1>Clever Math</h1>
           <p className={classes.email}>country@gmail.com</p>
           <div className={classes.alignItems}>
             <div className={classes.alignTextItem}>
               <div className={classes.alignContent}>
-                <RiLayoutMasonryLine className={classes.SideBarLogo} />
+                <RiLayoutMasonryLine className={classes.SideBarIcon} />
                 <div>
                   <p>ภาพรวม</p>
                 </div>
@@ -47,21 +47,23 @@ function Sidebar() {
             </div>
           </div>
           <br />
+          <Link to="/">
           <div className={classes.alignItems}>
             <div className={classes.alignTextItem}>
               <div className={classes.alignContent}>
-                <RiUserFill className={classes.SideBarLogo} />
+                <RiUserFill className={classes.SideBarIcon} />
                 <div>
                   <p>นักเรียน</p>
                 </div>
               </div>
             </div>
           </div>
+          </Link>
           <br />
           <div className={classes.alignItems}>
             <div className={classes.alignTextItem}>
               <div className={classes.alignContent}>
-                <IoIosBook className={classes.SideBarLogo} />
+                <IoIosBook className={classes.SideBarIcon} />
                 <div>
                   <p>การบ้าน</p>
                 </div>
@@ -72,7 +74,7 @@ function Sidebar() {
           <div className={classes.alignItems}>
             <div className={classes.alignTextItem}>
               <div className={classes.alignContent}>
-                <RiFile3Line className={classes.SideBarLogo} />
+                <RiFile3Line className={classes.SideBarIcon} />
                 <div>
                   <p>คะแนนรวม</p>
                 </div>
@@ -89,7 +91,7 @@ function Sidebar() {
           <div className={classes.alignItems}>
             <div className={classes.alignTextItem}>
               <div className={classes.alignContent}>
-                <RiQuestionLine className={classes.SideBarLogo} />
+                <RiQuestionLine className={classes.SideBarIcon} />
                 <div>
                   <p>วิธีใช้งาน</p>
                 </div>
@@ -100,7 +102,7 @@ function Sidebar() {
           <div className={classes.alignItems}>
             <div className={classes.alignTextItem}>
               <div className={classes.alignContent}>
-                <RiDownload2Fill className={classes.SideBarLogo} />
+                <RiDownload2Fill className={classes.SideBarIcon} />
                 <div>
                   <p>ดาวโหลดเกม</p>
                 </div>
@@ -112,7 +114,7 @@ function Sidebar() {
           <div className={classes.alignItems}>
             <div className={classes.alignTextItem}>
               <div className={classes.alignContent}>
-                <GoSignOut className={classes.SideBarLogo} />
+                <GoSignOut className={classes.SideBarIcon} />
                 <div>
                   <p>ออกจากระบบ</p>
                 </div>

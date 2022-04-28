@@ -1,0 +1,98 @@
+.header {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  padding: 0 80px;
+  user-select: none;
+  color: #1c4e91;
+  font-size: 24px;
+}
+
+.headerButton {
+  margin-left: 3%;
+  border-radius: 20px;
+  border-style: none;
+  width: 200px;
+  height: 40px;
+  box-shadow: 2px 2px 5px #c7c3c3;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.09877454399728647) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  color: #1c4e91;
+  cursor: pointer;
+  user-select: none;
+  font-size: 20px;
+  padding-left: 70px;
+  text-align: center;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Icon {
+  width: 2.2em;
+  height: 2.2em;
+  display: flex;
+  justify-content: right;
+  margin-left: 20px;
+  margin-right: 0px;
+  color: #1c4e91;
+}
+
+/******** body *********/
+
+.body {
+  background: rgb(247, 247, 247);
+  height: 100vh;
+  font-size: 16px; color: #1c4e91;
+}
+
+.topRowContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.body h1{
+  font-size: 20px; color: #1c4e91;
+  font-weight: lighter;
+  margin-left: 20px;
+}
+
+.bodyButton {
+  margin-left: 3%;
+  border-radius: 15px;
+  border-style: none;
+  width: 230px;
+  height: 40px;
+  box-shadow: 2px 2px 5px #c7c3c3;
+  background: rgb(28,109,145);
+  background: linear-gradient(90deg, rgba(28,109,145,1) 0%, rgba(28,78,145,1) 72%);
+  color: #ffffff;
+  cursor: pointer;
+  user-select: none;
+  font-size: 14px;
+  padding-left: 40px;
+  text-align: center;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.bodyIcon {
+  width: 1.5em;
+  height: 1.5em;
+  display: flex;
+  margin-left: 15px;
+  margin-right: 0px;
+  color: #ffffff;
+}
