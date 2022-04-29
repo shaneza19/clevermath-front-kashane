@@ -150,6 +150,7 @@ You have to write the things in a global CSS file then it will work.
   border-radius: 4px;
   border-style: solid;
   border-width: thin;
+  cursor: pointer;
 }
 
 .modalCancelButton {
@@ -162,6 +163,7 @@ You have to write the things in a global CSS file then it will work.
   color: #ffffff;
   background-color: #a80b0b;
   margin-right: 5px;
+  cursor: pointer;
 }
 
 .modalSubmitButton {
@@ -173,6 +175,7 @@ You have to write the things in a global CSS file then it will work.
   border-width: thin;
   color: #ffffff;
   background-color: #1c4e91;
+  cursor: pointer;
 }
 
 .modalContainer hr {
