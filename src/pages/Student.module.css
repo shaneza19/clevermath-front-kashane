@@ -115,6 +115,7 @@
   margin-top: 6px;
   margin-left: 15px;
   margin-right: 0px;
+  cursor: pointer;
   color: #1c4e91;
 }
 
@@ -131,13 +132,16 @@ You have to write the things in a global CSS file then it will work.
 .modalHeader {
   font-size: 20px;
   color: #1c4e91;
-  font-weight: lighter;
+}
+
+.modalHeaderB {
+  font-size: 20px;
+  color: #000000;
 }
 
 .modalFooter {
   font-size: 14px;
   color: #a80b0b;
-  font-weight: lighter;
   margin-right: 10px;
 }
 
@@ -180,6 +184,11 @@ You have to write the things in a global CSS file then it will work.
 
 .modalContainer p, button {
   margin-top: 6px;
+}
+
+.modalContainer p {
+  font-size: 18px;
+  font-weight: 100;
 }
 
 /***********************/
