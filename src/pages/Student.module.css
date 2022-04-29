@@ -94,6 +94,10 @@
   margin-right: 10px;
 }
 
+.bodyButton:hover {
+  background: rgba(28, 110, 145, 0.448);
+}
+
 .bodyIcon {
   width: 1.5em;
   height: 1.5em;
@@ -166,6 +170,10 @@ You have to write the things in a global CSS file then it will work.
   cursor: pointer;
 }
 
+.modalCancelButton:hover {
+  background-color: #a80b0b90;
+}
+
 .modalSubmitButton {
   width: 100px;
   height: 30px;
@@ -176,6 +184,10 @@ You have to write the things in a global CSS file then it will work.
   color: #ffffff;
   background-color: #1c4e91;
   cursor: pointer;
+}
+
+.modalSubmitButton:hover {
+  background-color: #1c4f9191;
 }
 
 .modalContainer hr {
