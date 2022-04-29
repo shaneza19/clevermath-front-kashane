@@ -37,7 +37,7 @@ class StudentTable extends React.Component {
         title: '#',
         dataIndex: 'serie',
         key: 'serie',
-        width: '%',
+        width: '7%',
         sorter: (a, b) => a.serie - b.serie,
         sortOrder: sortedInfo.columnKey === 'serie' && sortedInfo.order,
         ellipsis: true,
