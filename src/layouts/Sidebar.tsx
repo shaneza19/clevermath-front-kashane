@@ -84,9 +84,7 @@ function Sidebar() {
           <br />
           <br />
           <br />
-          <br />
-          <br />
-          <hr />
+          <hr className={classes.sideBarLine}/>
           <div className={classes.alignItems}>
             <div className={classes.alignTextItem}>
               <div className={classes.alignContent}>
@@ -108,7 +106,7 @@ function Sidebar() {
               </div>
             </div>
           </div>
-          <hr />
+          <hr className={classes.sideBarLine}/>
           <br />
           <div className={classes.alignItems}>
             <div className={classes.alignTextItem}>
